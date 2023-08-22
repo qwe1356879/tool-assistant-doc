@@ -20,17 +20,14 @@ hero:
 # Features section
 features:
   - icon: ⚡️
-    title: Adocs, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 效率↑
+    details: 使用工具来提高你的工作效率
   - icon: 🎉
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 较为齐全
+    details: Color、Type等...
   - icon: 🔥
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon: 🎀
-    title: Stylish and cool
-    details: Lorem ipsum...
+    title: 文档注释
+    details: 拥有文档注释来解决你使用时的疑惑
 
 # Meta property
 head:
@@ -47,7 +44,7 @@ head:
     - property: og:url
       content: https://vitejs.dev/blog/announcing-vite3
   - - meta
-    - name: title
+    - name: 123
       content: Adocs
   - - meta
     - name: twitter:card
