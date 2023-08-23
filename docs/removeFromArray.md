@@ -5,7 +5,7 @@
 ## 示例
 
 ```javascript
-// 引入 removeFromArrayByKey 函数
+// 引入 removeFromArray 函数
 import {removeFromArray} from 'tool-assistant'; 
 
 const originalArray = [
