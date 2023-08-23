@@ -52,6 +52,13 @@ export default {
         ],
       },
       {
+        text: "Number-数值运算",
+        collapsible: true,
+        items: [
+          { text: "operation", link: "/operation" },
+        ],
+      },
+      {
         text: "Date-日期",
         collapsible: true,
         items: [
