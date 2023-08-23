@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isRegExp 函数
-import { isRegExp } from './your-path-to-file';
+import { isRegExp } from 'tool-assistant';
 
 // 定义一个正则表达式
 const value = /hello/i;

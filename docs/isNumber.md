@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isNumber 函数
-import { isNumber } from './your-path-to-file';
+import { isNumber } from 'tool-assistant';
 
 // 定义一个变量
 const value = 123;

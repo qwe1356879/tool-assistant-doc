@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isUrl 函数
-import { isUrl } from './your-path-to-file';
+import { isUrl } from 'tool-assistant';
 
 // 定义一个路径
 const path = 'https://www.example.com';

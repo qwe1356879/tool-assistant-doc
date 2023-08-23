@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isNullAndUnDef 函数
-import { isNullAndUnDef } from './your-path-to-file';
+import { isNullAndUnDef } from 'tool-assistant';
 
 // 定义一个变量
 const value = undefined;

@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isFunction 函数
-import { isFunction } from './your-path-to-file';
+import { isFunction } from 'tool-assistant';
 
 // 定义一个函数
 function myFunction() {

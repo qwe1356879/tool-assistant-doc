@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isPromise 函数
-import { isPromise } from './your-path-to-file';
+import { isPromise } from 'tool-assistant';
 
 // 定义一个变量
 const value = new Promise((resolve, reject) => {

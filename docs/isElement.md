@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isElement 函数
-import { isElement } from './your-path-to-file';
+import { isElement } from 'tool-assistant';
 
 // 获取一个 DOM 元素
 const element = document.getElementById('my-element');

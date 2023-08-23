@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isWindow 函数
-import { isWindow } from './your-path-to-file';
+import { isWindow } from 'tool-assistant';
 
 // 在浏览器环境下，window 对象存在
 const value = window;
