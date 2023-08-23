@@ -61,6 +61,10 @@ export default {
         items: [
           { text: "dataURLtoBlob", link: "/dataURLtoBlob" },
           { text: "urlToBase64", link: "/urlToBase64" },
+          { text: "downloadByOnlineUrl", link: "/downloadByOnlineUrl" },
+          { text: "downloadByBase64", link: "/downloadByBase64" },
+          { text: "downloadByData", link: "/downloadByData" },
+          { text: "downloadByUrl", link: "/downloadByUrl" },
         ],
       },
       {
