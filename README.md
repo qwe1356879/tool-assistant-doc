@@ -9,12 +9,12 @@
 ## 函数分类
 
 - **Color**：`isHexColor`，`rgbToHex`，`hexToRGB`
-- **Data**: `convertToTreeData`，`convertToFlatData`，`findNode`，`findDifferentElements`，`findCommonElements`，`findDifferentObjectsProperty`，`findCommonObjectsProperty`，`removeDuplicatesFromObjectsArray`，`removeDuplicates`
+- **Data**: `convertToTreeData`，`convertToFlatData`，`findNode`，`findDifferentElements`，`findCommonElements`，`findDifferentObjectsProperty`，`findCommonObjectsProperty`，`removeDuplicatesFromObjectsArray`，`removeDuplicates`，`findObjectsByProperty`
 - **Date**: `formatToDateTime`，`formatToDate`，`convertToTimestamp`，`parseDate`，`parseCustomFormat`
-- **File**: `dataURLtoBlob`，`urlToBase64`
+- **File**: `dataURLtoBlob`，`urlToBase64`，`downloadByOnlineUrl`，`downloadByBase64`，`downloadByData`，`downloadByUrl`
 - **JSON**: `待补充`
 - **Log**: `warn`，`error`
-- **Type**: `is`，`isDef`，`isUnDef`，`isObject`，`isEmpty`，`isDate`，`isNull`，`isNullAndUnDef`，`isNullOrUnDef`，`isNumber`，`isPromise`，`isString`，`isFunction`，`isBoolean`，`isRegExp`，`isArray`，`isMap`，`isWindow`，`isElement`
+- **Type**: `is`，`isDef`，`isUnDef`，`isObject`，`isEmpty`，`isDate`，`isNull`，`isNullAndUnDef`，`isNullOrUnDef`，`isNumber`，`isPromise`，`isString`，`isFunction`，`isBoolean`，`isRegExp`，`isArray`，`isMap`，`isWindow`，`isElement`，`isUrl`
 - **UUID**: `buildShortUUID`，`buildSomeUUID`，`buildUUID`
 
 <!-- ## 帮助文档
@@ -26,11 +26,8 @@
 npm i tool-assistant
 ```
 
-## 使用方法
-
-```javascript
-import {isHexColor} from "tool-assistant"
-```
+## 帮助文档
+https://tadoc.netlify.app/
 
 ## License
 

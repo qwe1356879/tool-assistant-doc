@@ -42,6 +42,7 @@ export default {
           { text: "findCommonObjectsProperty", link: "/findCommonObjectsProperty" },
           { text: "removeDuplicatesFromObjectsArray", link: "/removeDuplicatesFromObjectsArray" },
           { text: "removeDuplicates", link: "/removeDuplicates" },
+          { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
         ],
       },
       {
