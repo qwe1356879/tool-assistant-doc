@@ -1,7 +1,7 @@
 export default {
   title: "ToolAssistant",
   description: "一个好用的工具库",
-  base:"./",
+  base:"/",
   themeConfig: {
     logo: "/logo.svg",
     siteTitle: "ToolAssistant",
