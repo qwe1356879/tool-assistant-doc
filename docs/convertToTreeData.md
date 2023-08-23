@@ -20,7 +20,7 @@ const data = [
 const treeData = convertToTreeData(data, 'id', 'parentId', 'children');
 
 // 打印树形结构
-console.log(JSON.stringify(treeData, null, 2));
+console.log(treeData);
 
 
 

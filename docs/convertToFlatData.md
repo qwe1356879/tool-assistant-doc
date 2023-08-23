@@ -42,6 +42,6 @@ const treeData = [
 const flatData = convertToFlatData(treeData, 'children', 'parentId');
 
 // 打印平铺结构数据
-console.log(JSON.stringify(flatData, null, 2));
+console.log(flatData);
 
 ```

@@ -12,6 +12,6 @@ import { buildSomeUUID } from 'tool-assistant';
 const uuids = buildSomeUUID(5);
 
 // 打印生成的 UUID
-console.log(uuid);
+console.log(uuids);
 
 ```
