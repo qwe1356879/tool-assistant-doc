@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 convertToFlatData 函数
-import convertToFlatData from 'tool-assistant'; 
+import {convertToFlatData} from 'tool-assistant'; 
 
 // 定义示例树形结构数据
 const treeData = [

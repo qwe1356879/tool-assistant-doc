@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 findDifferentElements 函数
-import findDifferentElements from 'tool-assistant';
+import {findDifferentElements} from 'tool-assistant';
 
 // 定义示例数组
 const array1 = [1, 2, 3, 4, 5];

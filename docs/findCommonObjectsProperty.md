@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 findCommonObjectsProperty 函数
-import findCommonObjectsProperty from 'tool-assistant'; 
+import {findCommonObjectsProperty} from 'tool-assistant'; 
 
 // 定义示例数组
 const array1 = [{ id: 1, name: 'John' }, { id: 2, name: 'Jane' }, { id: 3, name: 'Mary' }];

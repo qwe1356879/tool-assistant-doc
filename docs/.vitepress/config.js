@@ -47,6 +47,8 @@ export default {
           { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
           { text: "getRandomNumbers", link: "/getRandomNumbers" },
           { text: "getParamFromUrl", link: "/getParamFromUrl" },
+          { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
+          { text: "removeFromArray", link: "/removeFromArray" },
         ],
       },
       {
