@@ -87,6 +87,14 @@ export default {
         ],
       },
       {
+        text: "Script-脚本",
+        collapsible: true,
+        items: [
+          { text: "autoCommitAndPush", link: "/autoCommitAndPush" },
+          // { text: "error", link: "/error" },
+        ],
+      },
+      {
         text: "Type-类型",
         collapsible: true,
         items: [
