@@ -5,7 +5,7 @@
 ## 示例
 
 ```javascript
-// 引入 buildShortUUID 函数
+// 引入 divide,multiply,subtract,add 函数
 import { divide,multiply,subtract,add } from 'tool-assistant'; 
 
 console.log(add(0.1, 0.2)); // 输出: 0.3
