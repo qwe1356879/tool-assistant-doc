@@ -1,51 +1,37 @@
 <div align="center">
-  <img src="https://adocs.vercel.app/logo-big.svg" width="100px" height="100px" alt="adocs logo" />
-  <h1>Adocs</h1>
-  <p>A docs template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
-  <p>This repository serves as a resource for the tutorial, <a href="https://www.freecodecamp.org/news/how-to-build-a-modern-documentation-site-with-vitepress/">How to Build a Modern Documentation Site with VitePress</a> posted on freeCodeCamp</p>
+<h1>Tool-Assistant</h1>
 </div>
 
-## Run project locally
+## 介绍
 
-Use this command below to boot this project locally.
+`Tool-Assistant` 是一个函数工具库， 用来帮你处理各种开发中遇到的问题，现在已经给出包括 `Color`，`Data`，`Date`，`File`，`JSON`，`Log`，`Type`，`UUID`等类型问题的工具函数.
+
+## 函数分类
+
+- **Color**：`isHexColor`，`rgbToHex`，`hexToRGB`
+- **Data**: `convertToTreeData`，`convertToFlatData`，`findNode`，`findDifferentElements`，`findCommonElements`，`findDifferentObjectsProperty`，`findCommonObjectsProperty`，`removeDuplicatesFromObjectsArray`，`removeDuplicates`
+- **Date**: `formatToDateTime`，`formatToDate`，`convertToTimestamp`，`parseDate`，`parseCustomFormat`
+- **File**: `dataURLtoBlob`，`urlToBase64`
+- **JSON**: `待补充`
+- **Log**: `warn`，`error`
+- **Type**: `is`，`isDef`，`isUnDef`，`isObject`，`isEmpty`，`isDate`，`isNull`，`isNullAndUnDef`，`isNullOrUnDef`，`isNumber`，`isPromise`，`isString`，`isFunction`，`isBoolean`，`isRegExp`，`isArray`，`isMap`，`isWindow`，`isElement`
+- **UUID**: `buildShortUUID`，`buildSomeUUID`，`buildUUID`
+
+<!-- ## 帮助文档
+
+[Document](https://doc.vvbin.cn/) -->
+## 安装
 
 ```bash
-git clone https://github.com/Evavic44/adocs.git
-
-cd adocs
-
-npm install
-
-npm run docs:dev
+npm i tool-assistant
 ```
 
-Visit [https://localhost:5173](https://localhost:5173) to see your site
+## 使用方法
 
-## Build
-You may run this command to build the docs
-
-```bash
-npm run docs:build
+```javascript
+import {isHexColor} from "tool-assistant"
 ```
 
-## Folder Structure
+## License
 
-```
-docs/
-├── .vitepress/
-│   ├── config.js
-│   └── theme/
-│       ├── index.js
-│       └── custom.css
-├── public/
-│   ├── logo.svg
-│   └── logo-big.svg
-├── about.md
-├── configs.md
-├── contact.md
-├── get-started.md
-├── guide.md
-├── index.md
-├── package.json
-└── README.md
-```
+[MIT © ToolAssistant-2023](./LICENSE)

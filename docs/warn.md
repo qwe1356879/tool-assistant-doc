@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 warn 函数
-import { warn } from './your-module'; // 替换为待测试函数所在的模块路径
+import { warn } from 'tool-assistant'; 
 
 // 要输出警告的项目名称
 const projectName = 'MyProject';

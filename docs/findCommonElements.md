@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 findCommonElements 函数
-import findCommonElements from './your-module'; // 替换为待测试函数所在的模块路径
+import findCommonElements from 'tool-assistant'; 
 
 // 定义示例数组
 const array1 = [1, 2, 3, 4, 5];

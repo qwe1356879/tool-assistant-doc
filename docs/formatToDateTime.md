@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 formatToDateTime 函数
-import { formatToDateTime } from './your-module'; // 替换为待测试函数所在的模块路径
+import { formatToDateTime } from 'tool-assistant'; 
 
 // 要格式化的日期
 const date = new Date();

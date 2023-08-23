@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 findNode 函数
-import findNode from 'tool-assistant'; // 替换为待测试函数所在的模块路径
+import findNode from 'tool-assistant'; 
 
 // 定义示例树形结构数据
 const treeData = [

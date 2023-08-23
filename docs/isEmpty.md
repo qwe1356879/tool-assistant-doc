@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isEmpty 函数和依赖的辅助函数
-import { isEmpty } from './your-module'; // 替换为待测试函数所在的模块路径
+import { isEmpty } from 'tool-assistant'; 
 
 // 定义一个空数组
 const emptyArray = [];

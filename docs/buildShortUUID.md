@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 buildShortUUID 函数
-import { buildShortUUID } from './your-module'; // 替换为待测试函数所在的模块路径
+import { buildShortUUID } from 'tool-assistant'; 
 
 // 生成唯一的短 UUID
 const shortUUID = buildShortUUID('PREFIX');

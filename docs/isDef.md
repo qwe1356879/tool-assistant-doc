@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isDef 函数
-import { isDef } from './your-module'; // 替换为待测试函数所在的模块路径
+import { isDef } from 'tool-assistant'; 
 
 // 定义一个变量
 let name;

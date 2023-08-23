@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isUnDef 函数
-import { isUnDef } from './your-module'; // 替换为待测试函数所在的模块路径
+import { isUnDef } from 'tool-assistant'; 
 
 // 定义一个变量
 let name;

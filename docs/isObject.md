@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isObject 函数
-import { isObject } from './your-module'; // 替换为待测试函数所在的模块路径
+import { isObject } from 'tool-assistant'; 
 
 // 定义一个对象
 const person = {

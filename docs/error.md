@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 error 函数
-import { error } from './your-module'; // 替换为待测试函数所在的模块路径
+import { error } from 'tool-assistant'; 
 
 // 要输出错误的项目名称
 const projectName = 'MyProject';

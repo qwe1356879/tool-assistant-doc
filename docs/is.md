@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 is 函数
-import { is } from './your-module'; // 替换为待测试函数所在的模块路径
+import { is } from 'tool-assistant'; 
 
 // 检查值是否为字符串类型
 const isString = is('Hello', 'String');

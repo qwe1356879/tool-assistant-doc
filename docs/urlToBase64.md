@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 urlToBase64 函数
-import { urlToBase64 } from './your-module'; // 替换为待测试函数所在的模块路径
+import { urlToBase64 } from 'tool-assistant'; 
 
 // 要转换为 base64 的图片 URL
 const url = 'https://example.com/image.jpg'; // 替换为实际的图片 URL

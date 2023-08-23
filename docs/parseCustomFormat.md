@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 parseCustomFormat 函数
-import { parseCustomFormat } from './your-module'; // 替换为待测试函数所在的模块路径
+import { parseCustomFormat } from 'tool-assistant'; 
 
 // 要解析的日期字符串
 const dateString = '2023-08-22 10:30:00';

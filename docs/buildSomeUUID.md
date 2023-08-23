@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 buildSomeUUID 函数
-import { buildSomeUUID } from './your-module'; // 替换为待测试函数所在的模块路径
+import { buildSomeUUID } from 'tool-assistant'; 
 
 // 生成随机的 UUIDs
 const uuids = buildSomeUUID(5);

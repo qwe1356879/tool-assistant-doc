@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 removeDuplicates 函数
-import removeDuplicates from './your-module'; // 替换为待测试函数所在的模块路径
+import removeDuplicates from 'tool-assistant'; 
 
 // 定义示例数组
 const array1 = [1, 2, 3];

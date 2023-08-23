@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 convertToTimestamp 函数
-import { convertToTimestamp } from './your-module'; // 替换为待测试函数所在的模块路径
+import { convertToTimestamp } from 'tool-assistant'; 
 
 // 要转换为时间戳的日期字符串
 const dateString = '2023-08-22 10:30:00';

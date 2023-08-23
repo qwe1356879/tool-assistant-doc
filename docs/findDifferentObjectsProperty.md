@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 findDifferentObjectsProperty 函数
-import findDifferentObjectsProperty from './your-module'; // 替换为待测试函数所在的模块路径
+import findDifferentObjectsProperty from 'tool-assistant'; 
 
 // 定义示例数组
 const array1 = [{ id: 1, name: 'John' }, { id: 2, name: 'Jane' }, { id: 3, name: 'Mary' }];

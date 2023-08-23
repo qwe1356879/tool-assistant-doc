@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 dataURLtoBlob 函数
-import { dataURLtoBlob } from './your-module'; // 替换为待测试函数所在的模块路径
+import { dataURLtoBlob } from 'tool-assistant'; 
 
 // 要转换的 dataURL
 const base64Buf = 'data:image/png;base64,iVBORw0KGg...'; // 替换为实际的 dataURL

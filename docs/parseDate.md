@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 parseDate 函数
-import { parseDate } from './your-module'; // 替换为待测试函数所在的模块路径
+import { parseDate } from 'tool-assistant'; 
 
 // 要解析的日期字符串
 const dateString = '2023-08-22';

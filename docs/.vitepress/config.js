@@ -12,8 +12,8 @@ export default {
       {
         text: "仓库",
         items: [
-          { text: "gitee", link: "https://www.npmjs.com/package/tool-assistant" },
-          { text: "github", link: "https://www.npmjs.com/package/tool-assistant" },
+          { text: "gitee", link: "https://gitee.com/fffyt/helper-fun" },
+          { text: "github", link: "https://github.com/qwe1356879/tool-assistant-doc" },
         ],
       },
     ],
