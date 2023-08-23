@@ -26,7 +26,9 @@ export default {
         items: [
           { text: "isHexColor", link: "/isHexColor" },
           { text: "rgbToHex", link: "/rgbToHex" },
+          { text: "rgbaToHex", link: "/rgbaToHex" },
           { text: "hexToRGB", link: "/hexToRGB" },
+          { text: "hexToRGBA", link: "/hexToRGBA" },
         ],
       },
       {
@@ -43,6 +45,8 @@ export default {
           { text: "removeDuplicatesFromObjectsArray", link: "/removeDuplicatesFromObjectsArray" },
           { text: "removeDuplicates", link: "/removeDuplicates" },
           { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
+          { text: "getRandomNumbers", link: "/getRandomNumbers" },
+          { text: "getParamFromUrl", link: "/getParamFromUrl" },
         ],
       },
       {
