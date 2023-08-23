@@ -24,7 +24,7 @@ features:
     details: 使用工具来提高你的工作效率
   - icon: 🎉
     title: 较为齐全
-    details: Color、Type等...
+    details: Color、Data、Date、File、JSON、Log、Type、UUID等
   - icon: 🔥
     title: 文档注释
     details: 拥有文档注释来解决你使用时的疑惑
