@@ -5,7 +5,7 @@
 ## 示例
 
 ```javascript
-import { isDate } from './dateUtils'; // 假设 dateUtils.js 是包含导出函数的文件
+import { isDate } from 'tool-assistant';
 
 const dateObj = new Date();
 console.log(isDate(dateObj)); // 输出: true
