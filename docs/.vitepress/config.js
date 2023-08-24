@@ -110,6 +110,8 @@ export default {
         items: [
           { text: "warn", link: "/warn" },
           { text: "error", link: "/error" },
+          { text: "debounce", link: "/debounce" },
+          { text: "throttle", link: "/throttle" },
         ],
       },
       {
