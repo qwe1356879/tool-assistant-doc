@@ -98,6 +98,7 @@ export default {
           { text: "downloadByBase64", link: "/downloadByBase64" },
           { text: "downloadByData", link: "/downloadByData" },
           { text: "downloadByUrl", link: "/downloadByUrl" },
+          { text: "exportFile", link: "/exportFile" },
         ],
       },
       {
