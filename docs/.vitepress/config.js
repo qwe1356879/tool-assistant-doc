@@ -49,6 +49,8 @@ export default {
           { text: "getParamFromUrl", link: "/getParamFromUrl" },
           { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
           { text: "removeFromArray", link: "/removeFromArray" },
+          { text: "sortByFields", link: "/sortByFields" },
+          { text: "sortByField", link: "/sortByField" },
         ],
       },
       {
@@ -56,6 +58,13 @@ export default {
         collapsible: true,
         items: [
           { text: "operation", link: "/operation" },
+        ],
+      },
+      {
+        text: "Promise",
+        collapsible: true,
+        items: [
+          { text: "promisify", link: "/promisify" },
         ],
       },
       {
