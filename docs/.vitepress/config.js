@@ -51,6 +51,8 @@ export default {
           { text: "removeFromArray", link: "/removeFromArray" },
           { text: "sortByFields", link: "/sortByFields" },
           { text: "sortByField", link: "/sortByField" },
+          { text: "fuzzySearch", link: "/fuzzySearch" },
+          { text: "replaceAll", link: "/replaceAll" },
         ],
       },
       {
@@ -65,6 +67,14 @@ export default {
         collapsible: true,
         items: [
           { text: "promisify", link: "/promisify" },
+        ],
+      },
+      {
+        text: "Style-样式",
+        collapsible: true,
+        items: [
+          { text: "calculateAutoStyle", link: "/calculateAutoStyle" },
+          { text: "getDeviceInfo", link: "/getDeviceInfo" },
         ],
       },
       {
