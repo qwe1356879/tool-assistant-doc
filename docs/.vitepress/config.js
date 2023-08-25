@@ -45,8 +45,6 @@ export default {
           { text: "removeDuplicatesFromObjectsArray", link: "/removeDuplicatesFromObjectsArray" },
           { text: "removeDuplicates", link: "/removeDuplicates" },
           { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
-          { text: "getRandomNumbers", link: "/getRandomNumbers" },
-          { text: "generateRandomString", link: "/generateRandomString" },
           { text: "getParamFromUrl", link: "/getParamFromUrl" },
           { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
           { text: "removeFromArray", link: "/removeFromArray" },
@@ -54,9 +52,6 @@ export default {
           { text: "sortByField", link: "/sortByField" },
           { text: "fuzzySearch", link: "/fuzzySearch" },
           { text: "replaceAll", link: "/replaceAll" },
-          { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
-          { text: "paginate", link: "/paginate" },
-          
         ],
       },
       {
@@ -110,20 +105,28 @@ export default {
         collapsible: true,
       },
       {
-        text: "Log-控制台",
+        text: "Tool-常用工具",
         collapsible: true,
         items: [
           { text: "warn", link: "/warn" },
           { text: "error", link: "/error" },
           { text: "debounce", link: "/debounce" },
           { text: "throttle", link: "/throttle" },
+          { text: "buildUUID", link: "/buildUUID" },
+          { text: "buildSomeUUID", link: "/buildSomeUUID" },
+          { text: "buildShortUUID", link: "/buildShortUUID" },
+          { text: "buildSomeShortUUID", link: "/buildSomeShortUUID" },
+          { text: "getRandomNumbers", link: "/getRandomNumbers" },
+          { text: "generateRandomString", link: "/generateRandomString" },
+          { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
+          { text: "paginate", link: "/paginate" },
         ],
       },
       {
         text: "Script-脚本",
         collapsible: true,
         items: [
-          { text: "autoCommitAndPush", link: "/autoCommitAndPush" },
+          // { text: "autoCommitAndPush", link: "/autoCommitAndPush" },
           // { text: "error", link: "/error" },
         ],
       },
@@ -153,17 +156,11 @@ export default {
           { text: "isUrl",link:"/isUrl"},
         ],
       },
-      {
-        text: "UUID-流水号",
-        collapsible: true,
-        items: [
-          { text: "buildUUID", link: "/buildUUID" },
-          { text: "buildSomeUUID", link: "/buildSomeUUID" },
-          { text: "buildShortUUID", link: "/buildShortUUID" },
-          { text: "buildSomeShortUUID", link: "/buildSomeShortUUID" },
-        ],
-      },
     ],
+    pagination: {
+      prevText: '上一页',
+      nextText: '下一页'
+    },
     footer: {
       message: "Released under the MIT License.",
       copyright: "Copyright © 2023-present ToolAssistant",

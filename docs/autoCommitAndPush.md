@@ -1,4 +1,4 @@
-# autoCommitAndPush-弃用v1.0.27
+# autoCommitAndPush-弃用
 
 自动推送代码到指定分支脚本(需要在package.json中配置script),参数为(提交信息，分支名称)
 

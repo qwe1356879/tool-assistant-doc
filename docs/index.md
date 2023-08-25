@@ -24,35 +24,35 @@ features:
     details: 使用工具来提高你的工作效率
   - icon: 🎉
     title: 较为齐全
-    details: Color、Data、Date、File、JSON、Log、Type、UUID等
+    details: 目前已经有75+个工具函数,并且会持续更新
   - icon: 🔥
     title: 文档注释
-    details: 拥有文档注释来解决你使用时的疑惑
+    details: 在函数时文档注释会告诉你方法的用途,需要的参数,以及返回值
 
 # Meta property
-head:
-  - - meta
-    - property: og:type
-      content: website
-  - - meta
-    - property: og:title
-      content: Adocs
-  - - meta
-    - property: og:image
-      content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
-  - - meta
-    - property: og:url
-      content: https://vitejs.dev/blog/announcing-vite3
-  - - meta
-    - name: 123
-      content: Adocs
-  - - meta
-    - name: twitter:card
-      content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
-  - - link
-    - rel: icon
-      type: image/svg
-      href: logo.svg
+# head:
+#   - - meta
+#     - property: og:type
+#       content: website
+#   - - meta
+#     - property: og:title
+#       content: Adocs
+#   - - meta
+#     - property: og:image
+#       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
+#   - - meta
+#     - property: og:url
+#       content: https://vitejs.dev/blog/announcing-vite3
+#   - - meta
+#     - name: 123
+#       content: Adocs
+#   - - meta
+#     - name: twitter:card
+#       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
+#   - - link
+#     - rel: icon
+#       type: image/svg
+#       href: logo.svg
 ---
 
 <!-- Custom home layout -->
