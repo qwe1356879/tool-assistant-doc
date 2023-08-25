@@ -29,6 +29,9 @@ export default {
           { text: "rgbaToHex", link: "/rgbaToHex" },
           { text: "hexToRGB", link: "/hexToRGB" },
           { text: "hexToRGBA", link: "/hexToRGBA" },
+          { text: "isRGBAColor", link: "/isRGBAColor" },
+          { text: "isRGBColor", link: "/isRGBColor" },
+          { text: "getColorType", link: "/getColorType" },
         ],
       },
       {
@@ -100,10 +103,10 @@ export default {
           { text: "exportFile", link: "/exportFile" },
         ],
       },
-      {
-        text: "JSON",
-        collapsible: true,
-      },
+      // {
+      //   text: "JSON",
+      //   collapsible: true,
+      // },
       {
         text: "Tool-常用工具",
         collapsible: true,
@@ -120,16 +123,17 @@ export default {
           { text: "generateRandomString", link: "/generateRandomString" },
           { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
           { text: "paginate", link: "/paginate" },
+          { text: "buildSQLQuery", link: "/buildSQLQuery" },
         ],
       },
-      {
-        text: "Script-脚本",
-        collapsible: true,
-        items: [
-          // { text: "autoCommitAndPush", link: "/autoCommitAndPush" },
-          // { text: "error", link: "/error" },
-        ],
-      },
+      // {
+      //   text: "Script-脚本",
+      //   collapsible: true,
+      //   items: [
+      //     { text: "autoCommitAndPush", link: "/autoCommitAndPush" },
+      //     { text: "error", link: "/error" },
+      //   ],
+      // },
       {
         text: "Type-类型",
         collapsible: true,

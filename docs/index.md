@@ -4,7 +4,7 @@ layout: home
 # Hero section
 hero:
   name: ToolAssistant
-  text: 一个好用的工具库
+  text: 一个好用的函数工具库
   image:
     src: /logo-big.svg
     alt: ToolAssistant logo
@@ -20,8 +20,8 @@ hero:
 # Features section
 features:
   - icon: ⚡️
-    title: 效率↑
-    details: 使用工具来提高你的工作效率
+    title: 提高效率
+    details: 基于JavaScript进行封装,尽可能来提高你的工作效率
   - icon: 🎉
     title: 较为齐全
     details: 目前已经有75+个工具函数,并且会持续更新
@@ -30,7 +30,7 @@ features:
     details: 在函数时文档注释会告诉你方法的用途,需要的参数,以及返回值
   - icon: 🗂️
     title: 最新版本
-    details: v1.0.28
+    details: v1.0.29
 
 # Meta property
 head:
