@@ -4,18 +4,18 @@ layout: home
 # Hero section
 hero:
   name: ToolAssistant
-  text: 一个好用的工具库.
+  text: 一个好用的工具库
   image:
     src: /logo-big.svg
-    alt: Adocs logo
+    alt: ToolAssistant logo
   tagline: 尽可能将复杂问题解决方案进行收录，提高开发效率
   actions:
     - theme: brand
-      text: 立即开始
+      text: 阅读文档
       link: /guide
     - theme: alt
-      text: 获取源码
-      link: https://gitee.com/fffyt/helper-fun
+      text: 安装使用
+      link: https://www.npmjs.com/package/tool-assistant
 
 # Features section
 features:
@@ -25,9 +25,12 @@ features:
   - icon: 🎉
     title: 较为齐全
     details: 目前已经有75+个工具函数,并且会持续更新
-  - icon: 🔥
+  - icon: ⌨️
     title: 文档注释
     details: 在函数时文档注释会告诉你方法的用途,需要的参数,以及返回值
+  - icon: 🗂️
+    title: 最新版本
+    details: v1.0.28
 
 # Meta property
 # head:
