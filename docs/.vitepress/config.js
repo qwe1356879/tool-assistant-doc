@@ -46,6 +46,7 @@ export default {
           { text: "removeDuplicates", link: "/removeDuplicates" },
           { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
           { text: "getRandomNumbers", link: "/getRandomNumbers" },
+          { text: "generateRandomString", link: "/generateRandomString" },
           { text: "getParamFromUrl", link: "/getParamFromUrl" },
           { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
           { text: "removeFromArray", link: "/removeFromArray" },
@@ -53,6 +54,9 @@ export default {
           { text: "sortByField", link: "/sortByField" },
           { text: "fuzzySearch", link: "/fuzzySearch" },
           { text: "replaceAll", link: "/replaceAll" },
+          { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
+          { text: "paginate", link: "/paginate" },
+          
         ],
       },
       {
