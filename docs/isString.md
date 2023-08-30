@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isString 函数
-import { isString } from 'tool-assistant';
+import { isString } from "tool-assistant";
 
 // 定义一个变量
 const value = "Hello, world!";

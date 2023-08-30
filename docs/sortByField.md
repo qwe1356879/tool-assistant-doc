@@ -6,24 +6,23 @@
 
 ```javascript
 // 引入 sortByField 函数
-import { sortByField } from 'tool-assistant'; 
+import { sortByField } from "tool-assistant";
 
 const data = [
-  { name: 'Alice', age: 25 },
-  { name: 'Bob', age: 30 },
-  { name: 'Charlie', age: 20 },
-  { name: 'David', age: 28 }
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+  { name: "Charlie", age: 20 },
+  { name: "David", age: 28 },
 ];
 
-const sortedData = sortByField(data,'age','asc');
+const sortedData = sortByField(data, "age", "asc");
 
 console.log(sortedData);
-
 
 // 示例使用
 const data = [10, 5, 8, 3, 2, 1];
 
-const sortedData = sortByField(data, 'desc');
+const sortedData = sortByField(data, "desc");
 
 console.log(sortedData);
 ```

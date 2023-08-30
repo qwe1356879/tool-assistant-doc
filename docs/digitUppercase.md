@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 digitUppercase 函数
-import { digitUppercase } from 'tool-assistant'; 
+import { digitUppercase } from "tool-assistant";
 
 var amount = 1234.56;
 
@@ -25,5 +25,4 @@ var amount = 0.99;
 var result = digitUppercase(amount);
 console.log(result);
 // 输出：玖角玖分
-
 ```

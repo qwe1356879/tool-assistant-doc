@@ -6,11 +6,11 @@
 
 ```javascript
 // 引入 throttle 函数
-import { throttle } from 'tool-assistant'; 
+import { throttle } from "tool-assistant";
 
 // 示例使用
 function handleScroll() {
-  console.log('Scroll event triggered!');
+  console.log("Scroll event triggered!");
 }
 
 const throttledHandleScroll = throttle(handleScroll, 500);
@@ -21,7 +21,6 @@ throttledHandleScroll(); // 在500ms内触发，不会执行
 throttledHandleScroll(); // 在500ms内触发，不会执行
 
 // 过了500毫秒后，触发一次处理函数
-
 ```
 
 ## 防抖函数跟节流函数区别

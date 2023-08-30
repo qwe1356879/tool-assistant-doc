@@ -6,34 +6,33 @@
 
 ```javascript
 // 引入 fuzzySearch 函数
-import { fuzzySearch } from 'tool-assistant'; 
+import { fuzzySearch } from "tool-assistant";
 
 // 示例使用
 const data = [
-  { id: 1, name: 'Alice', email: 'alice@example.com' },
-  { id: 2, name: 'Bob', email: 'bob@example.com' },
-  { id: 3, name: 'Charlie', email: 'charlie@example.com' },
-  { id: 4, name: 'Daniel', email: 'daniel@example.com' }
+  { id: 1, name: "Alice", email: "alice@example.com" },
+  { id: 2, name: "Bob", email: "bob@example.com" },
+  { id: 3, name: "Charlie", email: "charlie@example.com" },
+  { id: 4, name: "Daniel", email: "daniel@example.com" },
 ];
 
-const query = 'b';
-const keys = ['name', 'email'];
+const query = "b";
+const keys = ["name", "email"];
 
 const searchResult = fuzzyMultiSearch(query, data, keys);
 
 console.log(searchResult);
 
-
 // 示例使用
 const data = [
-  { id: 1, name: 'Alice', email: 'alice@example.com' },
-  { id: 2, name: 'Bob', email: 'bob@example.com' },
-  { id: 3, name: 'Charlie', email: 'charlie@example.com' },
-  { id: 4, name: 'Daniel', email: 'daniel@example.com' }
+  { id: 1, name: "Alice", email: "alice@example.com" },
+  { id: 2, name: "Bob", email: "bob@example.com" },
+  { id: 3, name: "Charlie", email: "charlie@example.com" },
+  { id: 4, name: "Daniel", email: "daniel@example.com" },
 ];
 
-const query = 'b';
-const key = 'name';
+const query = "b";
+const key = "name";
 
 const searchResult = fuzzyMultiSearch(query, data, [key]);
 

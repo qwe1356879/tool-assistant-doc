@@ -6,11 +6,11 @@
 
 ```javascript
 // 引入 debounce 函数
-import { debounce } from 'tool-assistant'; 
+import { debounce } from "tool-assistant";
 
 // 示例使用
 function handleInput() {
-  console.log('input change');
+  console.log("input change");
 }
 
 const debouncedHandleInput = debounce(handleInput, 300);
@@ -21,5 +21,4 @@ debouncedHandleInput(); // 会重新计时延迟
 debouncedHandleInput(); // 会重新计时延迟
 
 // 过了300毫秒后，只触发一次处理函数
-
 ```

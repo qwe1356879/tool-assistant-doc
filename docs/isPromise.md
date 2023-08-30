@@ -6,11 +6,11 @@
 
 ```javascript
 // 引入 isPromise 函数
-import { isPromise } from 'tool-assistant';
+import { isPromise } from "tool-assistant";
 
 // 定义一个变量
 const value = new Promise((resolve, reject) => {
-  resolve('Promise Resolved');
+  resolve("Promise Resolved");
 });
 
 // 使用 isPromise 函数判断值是否为 Promise 对象

@@ -8,7 +8,7 @@
 
 ```javascript
 // 引入 promisify 函数
-import { promisify } from 'tool-assistant'; 
+import { promisify } from "tool-assistant";
 
 function delay(ms, callback) {
   setTimeout(callback, ms);
@@ -18,11 +18,9 @@ const delayPromise = promisify(delay);
 
 delayPromise(2000)
   .then(() => {
-    console.log('延迟2秒后执行的操作');
+    console.log("延迟2秒后执行的操作");
   })
   .catch((error) => {
-    console.error('延迟操作出错: ', error);
+    console.error("延迟操作出错: ", error);
   });
-
-
 ```

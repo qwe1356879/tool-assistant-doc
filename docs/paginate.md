@@ -6,10 +6,10 @@
 
 ```javascript
 // 引入 paginate 函数
-import { paginate } from 'tool-assistant';
+import { paginate } from "tool-assistant";
 
 // 示例 1：分页字符串数组
-const data1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+const data1 = ["a", "b", "c", "d", "e", "f", "g"];
 
 const pageSize1 = 3;
 const pageNumber1 = 2;
@@ -19,12 +19,12 @@ console.log(result1);
 
 // 示例 2：分页对象数组
 const data2 = [
-  { id: 1, name: 'John' },
-  { id: 2, name: 'Jane' },
-  { id: 3, name: 'Bob' },
-  { id: 4, name: 'Alice' },
-  { id: 5, name: 'Mike' },
-  { id: 6, name: 'Kate' }
+  { id: 1, name: "John" },
+  { id: 2, name: "Jane" },
+  { id: 3, name: "Bob" },
+  { id: 4, name: "Alice" },
+  { id: 5, name: "Mike" },
+  { id: 6, name: "Kate" },
 ];
 
 const pageSize2 = 2;

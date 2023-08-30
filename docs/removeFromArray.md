@@ -6,22 +6,20 @@
 
 ```javascript
 // 引入 removeFromArray 函数
-import {removeFromArray} from 'tool-assistant'; 
+import { removeFromArray } from "tool-assistant";
 
 const originalArray = [
-  { id: 1, name: 'John' },
-  { id: 2, name: 'Amy' },
-  { id: 3, name: 'Peter' },
-  { id: 4, name: 'Lisa' }
+  { id: 1, name: "John" },
+  { id: 2, name: "Amy" },
+  { id: 3, name: "Peter" },
+  { id: 4, name: "Lisa" },
 ];
 
 const elementsToRemove = [
-  { id: 2, name: 'Amy' },
-  { id: 4, name: 'Lisa' }
+  { id: 2, name: "Amy" },
+  { id: 4, name: "Lisa" },
 ];
 
 const filteredArray = removeFromArray(originalArray, elementsToRemove);
 console.log(filteredArray);
-
-
 ```

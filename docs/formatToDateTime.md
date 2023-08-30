@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 formatToDateTime 函数
-import { formatToDateTime } from 'tool-assistant'; 
+import { formatToDateTime } from "tool-assistant";
 
 // 要格式化的日期
 const date = new Date();
@@ -16,6 +16,4 @@ const formattedDateTime = formatToDateTime(date);
 
 // 打印格式化的日期和时间
 console.log(formattedDateTime);
-
-
 ```

@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 formatToDate 函数
-import { formatToDate } from 'tool-assistant'; 
+import { formatToDate } from "tool-assistant";
 
 // 要格式化的日期
 const date = new Date();

@@ -6,18 +6,16 @@
 
 ```javascript
 // 引入 parseDate 函数
-import { parseDate } from 'tool-assistant'; 
+import { parseDate } from "tool-assistant";
 
 // 要解析的日期字符串
-const dateString = '2023-08-22';
+const dateString = "2023-08-22";
 // 日期字符串的格式
-const format = 'YYYY-MM-DD';
+const format = "YYYY-MM-DD";
 
 // 解析日期
 const parsedDate = parseDate(dateString, format);
 
 // 打印解析的日期
 console.log(parsedDate);
-
-
 ```

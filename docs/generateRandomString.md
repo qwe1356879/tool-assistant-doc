@@ -6,10 +6,8 @@
 
 ```javascript
 // 引入 generateRandomString 函数
-import { generateRandomString } from 'tool-assistant'; 
+import { generateRandomString } from "tool-assistant";
 
 const randomString = generateRandomString(8);
 console.log(randomString);
-
-
 ```

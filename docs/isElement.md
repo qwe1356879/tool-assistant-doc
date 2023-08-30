@@ -6,10 +6,10 @@
 
 ```javascript
 // 引入 isElement 函数
-import { isElement } from 'tool-assistant';
+import { isElement } from "tool-assistant";
 
 // 获取一个 DOM 元素
-const element = document.getElementById('my-element');
+const element = document.getElementById("my-element");
 
 // 使用 isElement 函数判断值是否为 DOM 元素
 const result = isElement(element);

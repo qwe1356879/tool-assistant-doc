@@ -6,12 +6,12 @@
 
 ```javascript
 // 引入 isObject 函数
-import { isObject } from 'tool-assistant'; 
+import { isObject } from "tool-assistant";
 
 // 定义一个对象
 const person = {
-  name: 'John',
-  age: 30
+  name: "John",
+  age: 30,
 };
 
 // 检查值是否为对象类型

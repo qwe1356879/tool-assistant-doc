@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 getColorType 函数
-import { getColorType } from 'tool-assistant'; 
+import { getColorType } from "tool-assistant";
 
 // 示例使用
 console.log(getColorType("#ffffff")); // 十六进制颜色

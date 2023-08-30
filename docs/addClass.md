@@ -16,12 +16,10 @@
 ```
 
 ```javascript
-import { addClass } from "tool-assistant"
+import { addClass } from "tool-assistant";
 
-var element = document.getElementById('myElement');
-var className = 'myClass';
+var element = document.getElementById("myElement");
+var className = "myClass";
 
 addClass(element, className);
-
-
 ```

@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isNull 函数
-import { isNull } from 'tool-assistant';
+import { isNull } from "tool-assistant";
 
 // 定义一个变量
 const value = null;

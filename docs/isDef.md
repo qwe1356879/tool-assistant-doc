@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isDef 函数
-import { isDef } from 'tool-assistant'; 
+import { isDef } from "tool-assistant";
 
 // 定义一个变量
 let name;
@@ -16,7 +16,7 @@ const isNameDefined = isDef(name);
 console.log(isNameDefined); // false
 
 // 给变量赋值
-name = 'John';
+name = "John";
 
 // 再次检查变量是否已定义
 const isNameDefinedNow = isDef(name);

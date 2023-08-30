@@ -1,7 +1,7 @@
 export default {
   title: "ToolAssistant",
   description: "一个好用且实用的工具库",
-  base:"/",
+  base: "/",
   themeConfig: {
     logo: "/logo.svg",
     siteTitle: "ToolAssistant",
@@ -13,7 +13,10 @@ export default {
         text: "仓库",
         items: [
           { text: "gitee", link: "https://gitee.com/fffyt/helper-fun" },
-          { text: "github", link: "https://github.com/qwe1356879/tool-assistant-doc" },
+          {
+            text: "github",
+            link: "https://github.com/qwe1356879/tool-assistant-doc",
+          },
         ],
       },
     ],
@@ -45,31 +48,36 @@ export default {
           { text: "findNode", link: "/findNode" },
           { text: "findDifferentElements", link: "/findDifferentElements" },
           { text: "findCommonElements", link: "/findCommonElements" },
-          { text: "findDifferentObjectsProperty", link: "/findDifferentObjectsProperty" },
-          { text: "findCommonObjectsProperty", link: "/findCommonObjectsProperty" },
+          {
+            text: "findDifferentObjectsProperty",
+            link: "/findDifferentObjectsProperty",
+          },
+          {
+            text: "findCommonObjectsProperty",
+            link: "/findCommonObjectsProperty",
+          },
           { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
           { text: "fuzzySearch", link: "/fuzzySearch" },
           { text: "formatNumber", link: "/formatNumber" },
           { text: "replaceAll", link: "/replaceAll" },
-          { text: "removeDuplicatesFromObjectsArray", link: "/removeDuplicatesFromObjectsArray" },
+          {
+            text: "removeDuplicatesFromObjectsArray",
+            link: "/removeDuplicatesFromObjectsArray",
+          },
           { text: "removeDuplicates", link: "/removeDuplicates" },
           { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
           { text: "removeFromArray", link: "/removeFromArray" },
-          
+
           { text: "groupBy", link: "/groupBy" },
           { text: "normalGroupBy", link: "/normalGroupBy" },
           { text: "sortByFields", link: "/sortByFields" },
           { text: "sortByField", link: "/sortByField" },
-
-          
         ],
       },
       {
         text: "Number-数值运算",
         collapsible: true,
-        items: [
-          { text: "operation", link: "/operation" },
-        ],
+        items: [{ text: "operation", link: "/operation" }],
       },
       {
         text: "URL-链接",
@@ -83,9 +91,7 @@ export default {
       {
         text: "Promise",
         collapsible: true,
-        items: [
-          { text: "promisify", link: "/promisify" },
-        ],
+        items: [{ text: "promisify", link: "/promisify" }],
       },
       {
         text: "Style-样式",
@@ -109,10 +115,10 @@ export default {
         collapsible: true,
         items: [
           { text: "convertToTimestamp", link: "/convertToTimestamp" },
-          
+
           { text: "formatToDateTime", link: "/formatToDateTime" },
           { text: "formatToDate", link: "/formatToDate" },
-         
+
           { text: "parseDate", link: "/parseDate" },
           { text: "parseCustomFormat", link: "/parseCustomFormat" },
 
@@ -138,34 +144,34 @@ export default {
       {
         text: "Money-金额",
         collapsible: true,
-        items:[
+        items: [
           { text: "digitUppercase", link: "/digitUppercase" },
           { text: "uppercaseToDigit", link: "/uppercaseToDigit" },
           { text: "formatMoney", link: "/formatMoney" },
-        ]
+        ],
       },
       {
         text: "Tool-常用工具",
         collapsible: true,
         items: [
-          
           { text: "buildUUID", link: "/buildUUID" },
           { text: "buildSomeUUID", link: "/buildSomeUUID" },
           { text: "buildShortUUID", link: "/buildShortUUID" },
           { text: "buildSomeShortUUID", link: "/buildSomeShortUUID" },
           { text: "buildSQLQuery", link: "/buildSQLQuery" },
 
-
           { text: "warn", link: "/warn" },
           { text: "error", link: "/error" },
 
           { text: "debounce", link: "/debounce" },
           { text: "throttle", link: "/throttle" },
-         
+
           { text: "getRandomNumbers", link: "/getRandomNumbers" },
           { text: "generateRandomString", link: "/generateRandomString" },
-          { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
-         
+          {
+            text: "generateRandomFormatData",
+            link: "/generateRandomFormatData",
+          },
 
           { text: "paginate", link: "/paginate" },
         ],
@@ -189,27 +195,27 @@ export default {
           { text: "isEmpty", link: "/isEmpty" },
           { text: "isDate", link: "/isDate" },
           { text: "isNull", link: "/isNull" },
-          { text: "isNullAndUnDef",link: "/isNullAndUnDef" },
-          { text: "isNullOrUnDef" ,link:"/isNullOrUnDef"},
-          { text: "isNumber" ,link:"/isNumber"},
-          { text: "isPromise",link:"/isPromise"},
-          { text: "isString",link:"/isString"},
-          { text: "isFunction",link:"/isFunction"},
-          { text: "isBoolean",link:"/isBoolean"},
-          { text: "isRegExp",link:"/isRegExp"},
-          { text: "isArray",link:"/isArray"},
-          { text: "isMap",link:"/isMap"},
-          { text: "isWindow",link:"/isWindow"},
-          { text: "isElement",link:"/isElement"},
-          { text: "isUrl",link:"/isUrl"},
-          { text: "isIdCard",link:"/isIdCard"},
-          { text: "isEmail",link:"/isEmail"},
+          { text: "isNullAndUnDef", link: "/isNullAndUnDef" },
+          { text: "isNullOrUnDef", link: "/isNullOrUnDef" },
+          { text: "isNumber", link: "/isNumber" },
+          { text: "isPromise", link: "/isPromise" },
+          { text: "isString", link: "/isString" },
+          { text: "isFunction", link: "/isFunction" },
+          { text: "isBoolean", link: "/isBoolean" },
+          { text: "isRegExp", link: "/isRegExp" },
+          { text: "isArray", link: "/isArray" },
+          { text: "isMap", link: "/isMap" },
+          { text: "isWindow", link: "/isWindow" },
+          { text: "isElement", link: "/isElement" },
+          { text: "isUrl", link: "/isUrl" },
+          { text: "isIdCard", link: "/isIdCard" },
+          { text: "isEmail", link: "/isEmail" },
         ],
       },
     ],
     pagination: {
-      prevText: '上一页',
-      nextText: '下一页'
+      prevText: "上一页",
+      nextText: "下一页",
     },
     footer: {
       message: "Released under the MIT License.",

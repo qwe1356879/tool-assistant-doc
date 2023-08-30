@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isBoolean 函数
-import { isBoolean } from 'tool-assistant';
+import { isBoolean } from "tool-assistant";
 
 // 定义一个变量
 const value = true;

@@ -6,12 +6,11 @@
 
 ```javascript
 // 引入 buildSomeShortUUID 函数
-import { buildSomeShortUUID } from 'tool-assistant'; 
+import { buildSomeShortUUID } from "tool-assistant";
 
 // 生成唯一的短 UUID
-const shortUUIDs = buildSomeShortUUID('PREFIX');
+const shortUUIDs = buildSomeShortUUID("PREFIX");
 
 // 打印生成的短 UUID
 console.log(shortUUIDs);
-
 ```

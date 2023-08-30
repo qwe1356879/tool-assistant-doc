@@ -6,23 +6,23 @@
 
 ```javascript
 // 引入 convertToFlatData 函数
-import {convertToFlatData} from 'tool-assistant'; 
+import { convertToFlatData } from "tool-assistant";
 
 // 定义示例树形结构数据
 const treeData = [
   {
     id: 1,
-    name: 'A',
+    name: "A",
     parentId: null,
     children: [
       {
         id: 2,
-        name: 'B',
+        name: "B",
         parentId: 1,
         children: [
           {
             id: 4,
-            name: 'D',
+            name: "D",
             parentId: 2,
             children: [],
           },
@@ -30,7 +30,7 @@ const treeData = [
       },
       {
         id: 3,
-        name: 'C',
+        name: "C",
         parentId: 1,
         children: [],
       },
@@ -39,9 +39,8 @@ const treeData = [
 ];
 
 // 调用 convertToFlatData 函数
-const flatData = convertToFlatData(treeData, 'children', 'parentId');
+const flatData = convertToFlatData(treeData, "children", "parentId");
 
 // 打印平铺结构数据
 console.log(flatData);
-
 ```

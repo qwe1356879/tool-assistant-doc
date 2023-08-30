@@ -1,6 +1,6 @@
 # autoCommitAndPush-弃用
 
-自动推送代码到指定分支脚本(需要在package.json中配置script),参数为(提交信息，分支名称)
+自动推送代码到指定分支脚本(需要在 package.json 中配置 script),参数为(提交信息，分支名称)
 
 ## 示例
 
@@ -15,5 +15,4 @@
     "your-package-name": "^1.0.0"
   }
 }
-
 ```

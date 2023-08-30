@@ -6,18 +6,20 @@
 
 ```javascript
 // 引入 removeFromArrayByKey 函数
-import {removeFromArrayByKey} from 'tool-assistant'; 
+import { removeFromArrayByKey } from "tool-assistant";
 
 const originalArray = [
-  { id: 1, name: 'John' },
-  { id: 2, name: 'Amy' },
-  { id: 3, name: 'Peter' },
-  { id: 4, name: 'Lisa' }
+  { id: 1, name: "John" },
+  { id: 2, name: "Amy" },
+  { id: 3, name: "Peter" },
+  { id: 4, name: "Lisa" },
 ];
 
 const elementsToRemove = [2, 4];
-const filteredArray = removeFromArrayByKey(originalArray, elementsToRemove, 'id');
+const filteredArray = removeFromArrayByKey(
+  originalArray,
+  elementsToRemove,
+  "id"
+);
 console.log(filteredArray);
-
-
 ```

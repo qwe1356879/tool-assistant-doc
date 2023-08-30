@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isMap 函数
-import { isMap } from 'tool-assistant';
+import { isMap } from "tool-assistant";
 
 // 创建一个 Map 对象
 const value = new Map();

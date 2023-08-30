@@ -5,12 +5,10 @@
 ## 示例
 
 ```javascript
-import { removeClass } from "tool-assistant"
+import { removeClass } from "tool-assistant";
 
-var element = document.getElementById('myElement');
-var className = 'myClass';
+var element = document.getElementById("myElement");
+var className = "myClass";
 
 removeClass(element, className);
-
-
 ```

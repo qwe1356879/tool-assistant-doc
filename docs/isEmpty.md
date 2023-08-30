@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isEmpty 函数和依赖的辅助函数
-import { isEmpty } from 'tool-assistant'; 
+import { isEmpty } from "tool-assistant";
 
 // 定义一个空数组
 const emptyArray = [];
@@ -23,14 +23,14 @@ const isNonEmptyArrayEmpty = isEmpty(nonEmptyArray);
 console.log(isNonEmptyArrayEmpty); // false
 
 // 定义一个空字符串
-const emptyString = '';
+const emptyString = "";
 
 // 检查字符串是否为空
 const isStringEmpty = isEmpty(emptyString);
 console.log(isStringEmpty); // true
 
 // 定义一个非空字符串
-const nonEmptyString = 'Hello, world!';
+const nonEmptyString = "Hello, world!";
 
 // 再次检查字符串是否为空
 const isNonEmptyStringEmpty = isEmpty(nonEmptyString);
@@ -44,7 +44,7 @@ const isObjectEmpty = isEmpty(emptyObject);
 console.log(isObjectEmpty); // true
 
 // 定义一个非空对象
-const nonEmptyObject = { name: 'John', age: 30 };
+const nonEmptyObject = { name: "John", age: 30 };
 
 // 再次检查对象是否为空
 const isNonEmptyObjectEmpty = isEmpty(nonEmptyObject);

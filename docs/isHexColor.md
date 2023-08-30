@@ -1,6 +1,6 @@
 # isHexColor
 
-判断是否为16进制颜色
+判断是否为 16 进制颜色
 
 ## 示例
 
@@ -11,5 +11,3 @@ function _yourFun() {
   let boolean = isHexColor("rgb(255,255,255)");
 }
 ```
-
-

@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 removeDuplicates 函数
-import {removeDuplicates} from 'tool-assistant'; 
+import { removeDuplicates } from "tool-assistant";
 
 // 定义示例数组
 const array1 = [1, 2, 3];
@@ -18,6 +18,4 @@ const uniqueArray = removeDuplicates(array1, array2, array3);
 
 // 打印唯一数组
 console.log(uniqueArray);
-
-
 ```

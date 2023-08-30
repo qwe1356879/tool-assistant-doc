@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isArray 函数
-import { isArray } from 'tool-assistant';
+import { isArray } from "tool-assistant";
 
 // 定义一个数组
 const value = [1, 2, 3, 4, 5];

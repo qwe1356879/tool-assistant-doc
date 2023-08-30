@@ -6,12 +6,11 @@
 
 ```javascript
 // 引入 downloadByUrl 函数
-import { downloadByUrl } from 'tool-assistant';
+import { downloadByUrl } from "tool-assistant";
 
 // 定义文件的 URL
-const fileUrl = 'https://www.example.com/files/document.pdf';
+const fileUrl = "https://www.example.com/files/document.pdf";
 
 // 调用 downloadByUrl 函数进行下载
-downloadByUrl({ url: fileUrl, fileName: 'my-document.pdf' });
-
+downloadByUrl({ url: fileUrl, fileName: "my-document.pdf" });
 ```

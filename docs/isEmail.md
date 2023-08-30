@@ -7,9 +7,8 @@
 ```javascript
 import { isEmail } from "tool-assistant";
 
-var idCardNumber = 'xxxxx';
+var idCardNumber = "xxxxx";
 var isValid = isEmail(idCardNumber);
 
 console.log(isValid); // 输出 false
-
 ```

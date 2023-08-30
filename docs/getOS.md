@@ -5,11 +5,9 @@
 ## 示例
 
 ```javascript
-import { getOS } from "tool-assistant"
+import { getOS } from "tool-assistant";
 
 var os = getOS();
 
 console.log(os);
-
-
 ```

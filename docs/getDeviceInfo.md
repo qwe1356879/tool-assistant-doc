@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 getDeviceInfo 函数
-import { getDeviceInfo } from 'tool-assistant'; 
+import { getDeviceInfo } from "tool-assistant";
 
 // 示例使用
 const deviceInfo = getDeviceInfo();

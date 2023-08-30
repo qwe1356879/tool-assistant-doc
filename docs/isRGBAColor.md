@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 isRGBAColor 函数
-import { isRGBAColor } from 'tool-assistant'; 
+import { isRGBAColor } from "tool-assistant";
 
 // 示例使用
 console.log(isRGBAColor("rgba(255, 0, 0, 0.5)")); // true

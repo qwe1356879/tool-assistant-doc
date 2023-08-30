@@ -6,7 +6,7 @@
 
 ```javascript
 // 引入 normalGroupBy 函数
-import { normalGroupBy } from 'tool-assistant'; 
+import { normalGroupBy } from "tool-assistant";
 
 const numbers = [1, 2, 3, 1, 2, 3, 4, 5];
 const groupedNumbers = normalGroupBy(numbers);
