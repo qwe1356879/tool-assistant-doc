@@ -24,13 +24,13 @@ features:
     details: 基于JavaScript进行封装,尽可能来提高你的工作效率
   - icon: 🎉
     title: 较为齐全
-    details: 目前已经有80+个工具函数,并且会持续更新
+    details: 目前已经有90+个工具函数,并且会持续更新
   - icon: ⌨️
     title: 文档注释
     details: 在函数时文档注释会告诉你方法的用途,需要的参数,以及返回值
   - icon: 🗂️
     title: 最新版本
-    details: v1.0.32
+    details: v1.0.33
 
 # Meta property
 head:
@@ -48,8 +48,8 @@ head:
 
 <!-- Custom home layout -->
 <!-- <div class="custom-layout">
-  <h1>🏀</h1>
-  <h1>Custom Layout</h1>
-  <p>This section was added using plain HTML and CSS.</p>
-  <a href="https://github.com/Evavic44/adocs/blob/main/docs/index.md#custom-layout" target="_blank" class="btn">Source Code</a>
+  <h1>更新日志</h1>
+  <hr/>
+  <h4>2023-8-30 v1.0.32</h4>
+  <p>新增parseQueryString、getOS、getExplore、hasClass、addClass、removeClass、timeLeft、digitUppercase、uppercaseToDigit、formatMoney、groupBy、normalGroupBy、isIdCard、isEmail</p>
 </div> -->
