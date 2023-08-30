@@ -125,6 +125,7 @@ export default {
         items:[
           { text: "digitUppercase", link: "/digitUppercase" },
           { text: "uppercaseToDigit", link: "/uppercaseToDigit" },
+          { text: "formatMoney", link: "/formatMoney" },
         ]
       },
       {
