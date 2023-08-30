@@ -25,12 +25,12 @@ export default {
         collapsible: true,
         items: [
           { text: "isHexColor", link: "/isHexColor" },
+          { text: "isRGBAColor", link: "/isRGBAColor" },
+          { text: "isRGBColor", link: "/isRGBColor" },
           { text: "rgbToHex", link: "/rgbToHex" },
           { text: "rgbaToHex", link: "/rgbaToHex" },
           { text: "hexToRGB", link: "/hexToRGB" },
           { text: "hexToRGBA", link: "/hexToRGBA" },
-          { text: "isRGBAColor", link: "/isRGBAColor" },
-          { text: "isRGBColor", link: "/isRGBColor" },
           { text: "getColorType", link: "/getColorType" },
         ],
       },
@@ -45,16 +45,21 @@ export default {
           { text: "findCommonElements", link: "/findCommonElements" },
           { text: "findDifferentObjectsProperty", link: "/findDifferentObjectsProperty" },
           { text: "findCommonObjectsProperty", link: "/findCommonObjectsProperty" },
+          { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
+          { text: "fuzzySearch", link: "/fuzzySearch" },
+
+          { text: "replaceAll", link: "/replaceAll" },
           { text: "removeDuplicatesFromObjectsArray", link: "/removeDuplicatesFromObjectsArray" },
           { text: "removeDuplicates", link: "/removeDuplicates" },
-          { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
-          { text: "getParamFromUrl", link: "/getParamFromUrl" },
           { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
           { text: "removeFromArray", link: "/removeFromArray" },
+          
           { text: "sortByFields", link: "/sortByFields" },
           { text: "sortByField", link: "/sortByField" },
-          { text: "fuzzySearch", link: "/fuzzySearch" },
-          { text: "replaceAll", link: "/replaceAll" },
+
+          { text: "getParamFromUrl", link: "/getParamFromUrl" },
+          
+          
         ],
       },
       {
@@ -83,9 +88,11 @@ export default {
         text: "Date-日期",
         collapsible: true,
         items: [
+          { text: "convertToTimestamp", link: "/convertToTimestamp" },
+          
           { text: "formatToDateTime", link: "/formatToDateTime" },
           { text: "formatToDate", link: "/formatToDate" },
-          { text: "convertToTimestamp", link: "/convertToTimestamp" },
+         
           { text: "parseDate", link: "/parseDate" },
           { text: "parseCustomFormat", link: "/parseCustomFormat" },
         ],
@@ -95,12 +102,14 @@ export default {
         collapsible: true,
         items: [
           { text: "dataURLtoBlob", link: "/dataURLtoBlob" },
-          { text: "urlToBase64", link: "/urlToBase64" },
           { text: "downloadByOnlineUrl", link: "/downloadByOnlineUrl" },
           { text: "downloadByBase64", link: "/downloadByBase64" },
           { text: "downloadByData", link: "/downloadByData" },
           { text: "downloadByUrl", link: "/downloadByUrl" },
+
           { text: "exportFile", link: "/exportFile" },
+
+          { text: "urlToBase64", link: "/urlToBase64" },
         ],
       },
       // {
@@ -111,19 +120,28 @@ export default {
         text: "Tool-常用工具",
         collapsible: true,
         items: [
-          { text: "warn", link: "/warn" },
-          { text: "error", link: "/error" },
-          { text: "debounce", link: "/debounce" },
-          { text: "throttle", link: "/throttle" },
+          
           { text: "buildUUID", link: "/buildUUID" },
           { text: "buildSomeUUID", link: "/buildSomeUUID" },
           { text: "buildShortUUID", link: "/buildShortUUID" },
           { text: "buildSomeShortUUID", link: "/buildSomeShortUUID" },
+          { text: "buildSQLQuery", link: "/buildSQLQuery" },
+          
+
+          { text: "warn", link: "/warn" },
+          { text: "error", link: "/error" },
+
+          { text: "debounce", link: "/debounce" },
+          { text: "throttle", link: "/throttle" },
+         
           { text: "getRandomNumbers", link: "/getRandomNumbers" },
           { text: "generateRandomString", link: "/generateRandomString" },
           { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
+          { text: "groupBy", link: "/groupBy" },
+          
+          { text: "normalGroupBy", link: "/normalGroupBy" },
+
           { text: "paginate", link: "/paginate" },
-          { text: "buildSQLQuery", link: "/buildSQLQuery" },
         ],
       },
       // {
