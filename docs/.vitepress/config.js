@@ -58,7 +58,7 @@ export default {
           { text: "sortByField", link: "/sortByField" },
 
           { text: "getParamFromUrl", link: "/getParamFromUrl" },
-          
+          { text: "parseQueryString", link: "/parseQueryString" },
           
         ],
       },
@@ -82,6 +82,11 @@ export default {
         items: [
           { text: "calculateAutoStyle", link: "/calculateAutoStyle" },
           { text: "getDeviceInfo", link: "/getDeviceInfo" },
+          { text: "getOS", link: "/getOS" },
+          { text: "getExplore", link: "/getExplore" },
+          { text: "hasClass", link: "/hasClass" },
+          { text: "addClass", link: "/addClass" },
+          { text: "removeClass", link: "/removeClass" },
         ],
       },
       {
@@ -95,6 +100,8 @@ export default {
          
           { text: "parseDate", link: "/parseDate" },
           { text: "parseCustomFormat", link: "/parseCustomFormat" },
+
+          { text: "timeLeft", link: "/timeLeft" },
         ],
       },
       {
@@ -112,10 +119,14 @@ export default {
           { text: "urlToBase64", link: "/urlToBase64" },
         ],
       },
-      // {
-      //   text: "JSON",
-      //   collapsible: true,
-      // },
+      {
+        text: "Money-金额",
+        collapsible: true,
+        items:[
+          { text: "digitUppercase", link: "/digitUppercase" },
+          { text: "uppercaseToDigit", link: "/uppercaseToDigit" },formatMoney
+        ]
+      },
       {
         text: "Tool-常用工具",
         collapsible: true,
@@ -126,7 +137,7 @@ export default {
           { text: "buildShortUUID", link: "/buildShortUUID" },
           { text: "buildSomeShortUUID", link: "/buildSomeShortUUID" },
           { text: "buildSQLQuery", link: "/buildSQLQuery" },
-          
+
 
           { text: "warn", link: "/warn" },
           { text: "error", link: "/error" },
@@ -176,6 +187,8 @@ export default {
           { text: "isWindow",link:"/isWindow"},
           { text: "isElement",link:"/isElement"},
           { text: "isUrl",link:"/isUrl"},
+          { text: "isIdCard",link:"/isIdCard"},
+          { text: "isEmail",link:"/isEmail"},
         ],
       },
     ],
