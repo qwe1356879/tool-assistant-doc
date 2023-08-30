@@ -32,10 +32,12 @@ export default {
           { text: "hexToRGB", link: "/hexToRGB" },
           { text: "hexToRGBA", link: "/hexToRGBA" },
           { text: "getColorType", link: "/getColorType" },
+          { text: "randomHexColor", link: "/randomHexColor" },
+          { text: "generateRandomHexColors", link: "/generateRandomHexColors" },
         ],
       },
       {
-        text: "Data-数据",
+        text: "Data-数据处理",
         collapsible: false,
         items: [
           { text: "convertToTreeData", link: "/convertToTreeData" },
@@ -47,18 +49,18 @@ export default {
           { text: "findCommonObjectsProperty", link: "/findCommonObjectsProperty" },
           { text: "findObjectsByProperty", link: "/findObjectsByProperty" },
           { text: "fuzzySearch", link: "/fuzzySearch" },
-
+          { text: "formatNumber", link: "/formatNumber" },
           { text: "replaceAll", link: "/replaceAll" },
           { text: "removeDuplicatesFromObjectsArray", link: "/removeDuplicatesFromObjectsArray" },
           { text: "removeDuplicates", link: "/removeDuplicates" },
           { text: "removeFromArrayByKey", link: "/removeFromArrayByKey" },
           { text: "removeFromArray", link: "/removeFromArray" },
           
+          { text: "groupBy", link: "/groupBy" },
+          { text: "normalGroupBy", link: "/normalGroupBy" },
           { text: "sortByFields", link: "/sortByFields" },
           { text: "sortByField", link: "/sortByField" },
 
-          { text: "getParamFromUrl", link: "/getParamFromUrl" },
-          { text: "parseQueryString", link: "/parseQueryString" },
           
         ],
       },
@@ -67,6 +69,15 @@ export default {
         collapsible: true,
         items: [
           { text: "operation", link: "/operation" },
+        ],
+      },
+      {
+        text: "URL-链接",
+        collapsible: true,
+        items: [
+          { text: "getParamFromUrl", link: "/getParamFromUrl" },
+          { text: "parseQueryString", link: "/parseQueryString" },
+          { text: "stringfyQueryString", link: "/stringfyQueryString" },
         ],
       },
       {
@@ -87,6 +98,10 @@ export default {
           { text: "hasClass", link: "/hasClass" },
           { text: "addClass", link: "/addClass" },
           { text: "removeClass", link: "/removeClass" },
+          { text: "offset", link: "/offset" },
+          { text: "getScrollTop", link: "/getScrollTop" },
+          { text: "setScrollTop", link: "/setScrollTop" },
+          { text: "scrollTo", link: "/scrollTo" },
         ],
       },
       {
@@ -102,6 +117,7 @@ export default {
           { text: "parseCustomFormat", link: "/parseCustomFormat" },
 
           { text: "timeLeft", link: "/timeLeft" },
+          { text: "formatRemainTime", link: "/formatRemainTime" },
         ],
       },
       {
@@ -149,9 +165,7 @@ export default {
           { text: "getRandomNumbers", link: "/getRandomNumbers" },
           { text: "generateRandomString", link: "/generateRandomString" },
           { text: "generateRandomFormatData", link: "/generateRandomFormatData" },
-          { text: "groupBy", link: "/groupBy" },
-          
-          { text: "normalGroupBy", link: "/normalGroupBy" },
+         
 
           { text: "paginate", link: "/paginate" },
         ],
