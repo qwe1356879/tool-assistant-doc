@@ -124,7 +124,7 @@ export default {
         collapsible: true,
         items:[
           { text: "digitUppercase", link: "/digitUppercase" },
-          { text: "uppercaseToDigit", link: "/uppercaseToDigit" },formatMoney
+          { text: "uppercaseToDigit", link: "/uppercaseToDigit" },
         ]
       },
       {
