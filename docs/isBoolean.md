@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否为布尔类型
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isBoolean } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isBoolean } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

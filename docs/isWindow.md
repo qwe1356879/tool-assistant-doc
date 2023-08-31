@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否为 Window 对象
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isWindow } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isWindow } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

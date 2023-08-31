@@ -2,6 +2,20 @@
 
 将多个数组中的对象合并，并移除重复的对象，返回一个只包含唯一对象的数组。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { removeDuplicatesFromObjectsArray } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { removeDuplicatesFromObjectsArray } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

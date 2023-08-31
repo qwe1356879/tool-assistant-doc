@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否为函数类型
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isFunction } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isFunction } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

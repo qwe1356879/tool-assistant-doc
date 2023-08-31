@@ -2,6 +2,20 @@
 
 判断一个值是否为空
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isEmpty } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isEmpty } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

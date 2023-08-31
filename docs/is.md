@@ -2,6 +2,20 @@
 
 函数“is”检查一个值是否属于 JavaScript 中的特定类型
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { is } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { is } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 用于输出错误信息
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { error } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { error } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

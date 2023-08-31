@@ -2,6 +2,20 @@
 
 这个函数用于计算两个时间之间的时间差，返回以天、小时、分钟和秒为单位的时间差值。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { timeLeft } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { timeLeft } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

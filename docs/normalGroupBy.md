@@ -2,6 +2,20 @@
 
 分组函数，将普通元素数组分组
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { normalGroupBy } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { normalGroupBy } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

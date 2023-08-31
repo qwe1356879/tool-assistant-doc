@@ -2,6 +2,20 @@
 
 将平级数据转换成树级数据
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { convertToTreeData } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { convertToTreeData } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 用于自动计算宽度和高度的自适应样式
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { calculateAutoStyle } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { calculateAutoStyle } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

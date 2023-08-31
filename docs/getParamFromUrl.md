@@ -2,6 +2,20 @@
 
 从 HTTP URL 中截取指定参数的方法
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { getParamFromUrl } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { getParamFromUrl } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

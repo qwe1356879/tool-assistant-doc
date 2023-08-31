@@ -2,6 +2,20 @@
 
 对象序列化
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { stringfyQueryString } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { stringfyQueryString } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

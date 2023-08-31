@@ -2,6 +2,20 @@
 
 根据不同的颜色格式，getColorType 方法会返回相应的颜色类型。请注意，这个方法仅对颜色的类型进行简单判断，不能验证颜色值的有效性。如果需要更为严格的验证，可以在各个类型的判断中进一步检查颜色值的取值范围和格式。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { getColorType } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { getColorType } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

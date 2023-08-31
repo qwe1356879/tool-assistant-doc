@@ -2,6 +2,20 @@
 
 用于输出警告信息
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { warn } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { warn } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

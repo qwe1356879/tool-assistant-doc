@@ -2,6 +2,20 @@
 
 将多个数组合并为一个数组，并移除重复的元素，返回一个只包含唯一元素的数组。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { removeDuplicates } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { removeDuplicates } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

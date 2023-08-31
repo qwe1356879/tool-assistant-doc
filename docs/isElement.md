@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否为 DOM 元素
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isElement } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isElement } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

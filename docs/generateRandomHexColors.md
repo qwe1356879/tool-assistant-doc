@@ -2,6 +2,20 @@
 
 根据指定的数字生成随机的十六进制颜色代码数组
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { generateRandomColors } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { generateRandomColors } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

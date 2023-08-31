@@ -2,6 +2,25 @@
 
 函数在指定的持续时间内将页面平滑地滚动到指定的位置。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const {
+  setScrollTop,
+  getScrollTop,
+  offset,
+  scrollTo,
+} = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { setScrollTop, getScrollTop, offset, scrollTo } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

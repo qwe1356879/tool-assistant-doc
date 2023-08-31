@@ -2,6 +2,20 @@
 
 检查给定字符串是否是有效的电子邮件地址。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isEmail } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isEmail } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

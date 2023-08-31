@@ -2,6 +2,20 @@
 
 用于集合删除指定元素来完成批量删除操作
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { removeFromArrayByKey } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { removeFromArrayByKey } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

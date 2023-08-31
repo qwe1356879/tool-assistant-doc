@@ -2,6 +2,20 @@
 
 生成指定个数、指定范围的随级整数，小数(小数可以指定保留几位)
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { getRandomNumbers } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { getRandomNumbers } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

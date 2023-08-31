@@ -2,6 +2,20 @@
 
 按照给定集合根据字段进行单一排序,并且可以指定排序规则（升序或降序）
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { sortByField } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { sortByField } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

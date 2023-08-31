@@ -2,6 +2,20 @@
 
 通过自定义表名、列名、条件和排序，你可以根据实际需求生成不同的 SQL 查询语句。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { buildSQLQuery } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { buildSQLQuery } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

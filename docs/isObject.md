@@ -2,6 +2,20 @@
 
 检查一个值是否是对象类型
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isObject } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isObject } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 按照给定集合进行组合排序,并且可以指定排序规则（升序或降序）
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { sortByFields } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { sortByFields } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

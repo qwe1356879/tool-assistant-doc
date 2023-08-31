@@ -2,6 +2,20 @@
 
 模糊查询方法，可根据指定集合进行模糊查询或者单一参数进行模糊查询。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { fuzzySearch } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { fuzzySearch } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

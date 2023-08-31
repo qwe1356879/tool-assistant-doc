@@ -2,6 +2,20 @@
 
 这个函数的作用是通过 URL 下载文件。根据浏览器类型（Chrome、Safari 或其他浏览器），函数会采用不同的方法来实现下载功能。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { downloadByUrl } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { downloadByUrl } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

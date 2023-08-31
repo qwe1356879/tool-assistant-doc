@@ -2,6 +2,20 @@
 
 大写金额转换为数字
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { uppercaseToDigit } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { uppercaseToDigit } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

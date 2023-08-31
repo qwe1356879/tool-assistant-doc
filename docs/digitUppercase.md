@@ -2,6 +2,20 @@
 
 用于将给定的数字转换为大写金额表示。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { digitUppercase } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { digitUppercase } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,10 +2,24 @@
 
 将窗口的滚动位置设置为指定值并返回该值。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { setScrollTop, getScrollTop, offset } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { setScrollTop, getScrollTop, offset } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript
-// 引入 setScrollTop 函数
+// 引入 setScrollTop, getScrollTop, offset 函数
 import { setScrollTop, getScrollTop, offset } from "tool-assistant";
 
 // 示例 1：将页面滚动到特定的垂直位置

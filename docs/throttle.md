@@ -2,6 +2,20 @@
 
 节流函数（Throttle）：节流函数会限制执行处理函数的频率，在指定的时间间隔内，无论触发多少次事件，都只会执行一次处理函数。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { throttle } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { throttle } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

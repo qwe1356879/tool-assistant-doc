@@ -2,6 +2,20 @@
 
 函数用于向元素的类名中添加指定的类名。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { addClass } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { addClass } from "tool-assistant;
+```
+
 ## 示例
 
 ```html

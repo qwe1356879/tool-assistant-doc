@@ -2,6 +2,20 @@
 
 将给定的日期格式化为指定格式的日期和时间字符串。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { formatToDateTime } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { formatToDateTime } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

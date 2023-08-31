@@ -2,6 +2,20 @@
 
 获取一个元素的距离文档(document)的位置，类似 jQ 中的 offset()
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { offset } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { offset } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

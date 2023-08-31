@@ -2,6 +2,20 @@
 
 用于查找多个数组中在指定属性上具有唯一值的对象。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { findDifferentObjectsProperty } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { findDifferentObjectsProperty } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 防抖函数（Debounce）：防抖函数会等待一定的时间间隔，如果在这个时间间隔内继续触发事件，那么定时器就会被重置。只有在最后一个事件触发后的等待时间过去后，才会执行一次处理函数。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { debounce } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { debounce } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

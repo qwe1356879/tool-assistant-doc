@@ -2,6 +2,20 @@
 
 在 JavaScript 中生成随机的 UUID
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { buildSomeUUID } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { buildSomeUUID } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

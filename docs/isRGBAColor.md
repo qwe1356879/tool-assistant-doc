@@ -2,6 +2,20 @@
 
 这只是一个简单的判断，仅用于确定字符串是否符合 RGBA 颜色的格式，不能验证颜色值的有效性。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isRGBAColor } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isRGBAColor } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

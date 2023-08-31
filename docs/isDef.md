@@ -2,6 +2,20 @@
 
 该函数检查值是否已定义。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isDef } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isDef } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

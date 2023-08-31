@@ -2,6 +2,20 @@
 
 函数用于查找多个数组中只出现一次的元素。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { findDifferentElements } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { findDifferentElements } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

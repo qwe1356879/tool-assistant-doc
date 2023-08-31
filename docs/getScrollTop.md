@@ -2,6 +2,20 @@
 
 获取文档的垂直滚动位置
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { getScrollTop } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { getScrollTop } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

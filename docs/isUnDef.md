@@ -2,6 +2,20 @@
 
 检查一个值是否未定义
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isUnDef } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isUnDef } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

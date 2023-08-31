@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否为 Promise 对象
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isPromise } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isPromise } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

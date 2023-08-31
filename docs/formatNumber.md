@@ -5,6 +5,20 @@ decimalPlaces：要保留的小数位数，默认为 2。
 decimalSeparator：小数点分隔符，默认为 '.'。
 thousandSeparator：千位分隔符，默认为 ','。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { formatNumber } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { formatNumber } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

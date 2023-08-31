@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否同时为 null 和 undefined
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isNullAndUnDef } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isNullAndUnDef } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

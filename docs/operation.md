@@ -2,6 +2,20 @@
 
 数值计算（加、减、乘、除）,可指定保留几位小数。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { divide, multiply, subtract, add } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { divide, multiply, subtract, add } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

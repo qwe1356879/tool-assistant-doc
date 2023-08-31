@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个值是否为数组类型
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isArray } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isArray } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

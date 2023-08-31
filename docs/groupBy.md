@@ -2,6 +2,20 @@
 
 分组函数，根据 Key 值将对象数组进行分组。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { groupBy } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { groupBy } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 这个函数的作用是下载一个在线 URL 资源。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { downloadByOnlineUrl } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { downloadByOnlineUrl } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

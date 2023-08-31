@@ -2,6 +2,20 @@
 
 用于查找多个数组中的共同元素。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { findCommonElements } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { findCommonElements } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

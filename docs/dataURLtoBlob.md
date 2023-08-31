@@ -2,6 +2,20 @@
 
 将给定的 dataURL 格式的图片转换为 Blob 对象
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { dataURLtoBlob } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { dataURLtoBlob } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

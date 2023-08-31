@@ -2,6 +2,20 @@
 
 将树级数据转换成平级数据
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { convertToFlatData } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { convertToFlatData } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 将给定的图片 URL 转换为对应的 base64 字符串
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { urlToBase64 } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { urlToBase64 } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

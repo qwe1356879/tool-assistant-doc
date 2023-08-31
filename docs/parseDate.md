@@ -2,6 +2,20 @@
 
 根据给定的格式解析日期字符串并返回对应的日期对象
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { parseDate } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { parseDate } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

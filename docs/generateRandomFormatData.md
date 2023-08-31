@@ -2,6 +2,20 @@
 
 生成指定格式和数量的随机数据，并将数据作为结果返回
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { generateRandomData } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { generateRandomData } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

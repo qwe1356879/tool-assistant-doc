@@ -2,6 +2,20 @@
 
 该函数检查值是否为“Date”类型。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isDate } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isDate } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

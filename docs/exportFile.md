@@ -2,6 +2,20 @@
 
 通用导出文件方法
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { exportFile } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { exportFile } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 用于将给定的数字转换为大写金额表示,amount 为金额数量,第二个参数为国家货币代号。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { formatMoney } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { formatMoney } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

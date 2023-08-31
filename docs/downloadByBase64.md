@@ -2,6 +2,20 @@
 
 这个函数的作用是通过 Base64 编码下载文件
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { downloadByBase64 } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { downloadByBase64 } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -1,6 +1,20 @@
 # hasClass
 
-hasClass
+判断一个元素是否有Class
+
+## 引入方式
+
+### CJS
+
+```javascript
+const { hasClass } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { hasClass } from "tool-assistant;
+```
 
 ## 示例
 

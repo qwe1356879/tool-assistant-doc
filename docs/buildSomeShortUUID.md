@@ -2,6 +2,20 @@
 
 通过组合前缀、随机数、唯一计数器和当前时间戳来生成的短 UUID 集合
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { buildSomeShortUUID } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { buildSomeShortUUID } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

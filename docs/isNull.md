@@ -2,6 +2,20 @@
 
 提供一个简便的方式来判断一个值是否为 null。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isNull } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isNull } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

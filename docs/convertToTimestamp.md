@@ -2,6 +2,20 @@
 
 作用是将给定的日期字符串转换为指定格式的时间戳。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { convertToTimestamp } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { convertToTimestamp } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

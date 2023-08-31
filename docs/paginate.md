@@ -2,6 +2,20 @@
 
 前端分页函数,请确保 array 是一个数组，pageSize 和 pageNumber 都是有效的数字值.
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { paginate } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { paginate } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

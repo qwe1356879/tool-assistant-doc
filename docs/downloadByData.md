@@ -2,6 +2,20 @@
 
 这个函数的作用是通过二进制数据下载文件。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { downloadByData } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { downloadByData } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

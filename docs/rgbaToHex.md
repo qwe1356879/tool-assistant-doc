@@ -2,6 +2,20 @@
 
 将 RGBA 颜色转换成 16 进制颜色
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { rgbaToHex } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { rgbaToHex } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

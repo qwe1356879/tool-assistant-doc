@@ -2,6 +2,20 @@
 
 树级数据根据指定字段查询节点
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { findNode } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { findNode } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

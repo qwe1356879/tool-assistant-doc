@@ -2,6 +2,20 @@
 
 提供一个方便的方式来判断一个路径是否符合 URL 的格式要求。在开发中，我们常常需要对用户输入的路径进行验证，判断其是否为 URL 格式。使用 isUrl 函数，我们可以轻松地检查一个路径是否为 URL 格式，从而进行相应的处理和校验。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { isUrl } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { isUrl } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

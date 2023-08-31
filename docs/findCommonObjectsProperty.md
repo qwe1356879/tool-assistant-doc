@@ -2,6 +2,20 @@
 
 在多个数组中根据指定的属性名找到共同拥有的对象。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { findCommonObjectsProperty } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { findCommonObjectsProperty } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

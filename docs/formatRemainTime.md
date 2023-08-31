@@ -2,6 +2,20 @@
 
 计算当前日期与给定结束时间之间的时间差，并以“d 天 h 小时 m 分钟 s 秒”的格式返回。
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { formatRemainTime } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { formatRemainTime } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

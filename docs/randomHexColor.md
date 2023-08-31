@@ -2,6 +2,20 @@
 
 生成随机 16 进制颜色
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { randomHexColor } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { randomHexColor } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript

@@ -2,6 +2,20 @@
 
 url 参数转对象
 
+## 引入方式
+
+### CJS
+
+```javascript
+const { parseQueryString } = require("tool-assistant");
+```
+
+### ESM
+
+```javascript
+import { parseQueryString } from "tool-assistant;
+```
+
 ## 示例
 
 ```javascript
