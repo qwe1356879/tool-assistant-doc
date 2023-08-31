@@ -24,7 +24,7 @@ features:
     details: 基于JavaScript进行封装,尽可能来提高你的工作效率
   - icon: 🎉
     title: 较为齐全,适用性好
-    details: 目前已经有90+个工具函数,支持CJS和ESM引入,并且会持续更新
+    details: 目前已经有90+个工具函数,支持CJS和ESM方式引入,并且会持续更新
   - icon: ⌨️
     title: 文档注释
     details: 在函数时文档注释会告诉你方法的用途,需要的参数,以及返回值
