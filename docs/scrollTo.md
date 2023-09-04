@@ -4,7 +4,7 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const {
@@ -13,12 +13,12 @@ const {
   offset,
   scrollTo,
 } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 
 ```javascript
-import { setScrollTop, getScrollTop, offset, scrollTo } from "tool-assistant;
+import { scrollTo } from "tool-assistant;
 ```
 
 ## 示例

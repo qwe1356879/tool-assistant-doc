@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { isRegExp } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

@@ -4,11 +4,11 @@ url 参数转对象
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { parseQueryString } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

@@ -6,11 +6,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { promisify } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

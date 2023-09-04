@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { divide, multiply, subtract, add } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

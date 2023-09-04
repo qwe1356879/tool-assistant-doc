@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { sortByField } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

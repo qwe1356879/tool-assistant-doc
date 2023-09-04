@@ -7,11 +7,11 @@ thousandSeparator：千位分隔符，默认为 ','。
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { formatNumber } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

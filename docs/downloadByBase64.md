@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { downloadByBase64 } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

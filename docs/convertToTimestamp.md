@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { convertToTimestamp } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

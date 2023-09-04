@@ -139,6 +139,7 @@ export default {
           { text: "exportFile", link: "/exportFile" },
 
           { text: "urlToBase64", link: "/urlToBase64" },
+          { text: "sliceFile", link: "/sliceFile" },
         ],
       },
       {

@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { isNumber } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

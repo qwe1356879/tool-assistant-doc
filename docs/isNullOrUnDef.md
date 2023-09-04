@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { isNullOrUnDef } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { findNode } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

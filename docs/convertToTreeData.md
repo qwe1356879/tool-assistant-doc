@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { convertToTreeData } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { removeDuplicatesFromObjectsArray } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

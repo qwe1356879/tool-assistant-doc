@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { buildSQLQuery } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 

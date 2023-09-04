@@ -4,11 +4,11 @@
 
 ## 引入方式
 
-### CJS
+<!-- ### CJS
 
 ```javascript
 const { groupBy } = require("tool-assistant");
-```
+``` -->
 
 ### ESM
 
