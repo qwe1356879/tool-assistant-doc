@@ -33,7 +33,7 @@ const data = [
 const query = "b";
 const keys = ["name", "email"];
 
-const searchResult = fuzzyMultiSearch(query, data, keys);
+const searchResult = fuzzySearch(query, data, keys);
 
 console.log(searchResult);
 
@@ -48,7 +48,7 @@ const data = [
 const query = "b";
 const key = "name";
 
-const searchResult = fuzzyMultiSearch(query, data, [key]);
+const searchResult = fuzzySearch(query, data, [key]);
 
 console.log(searchResult);
 ```

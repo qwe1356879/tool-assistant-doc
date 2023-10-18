@@ -176,6 +176,7 @@ export default {
           },
 
           { text: "paginate", link: "/paginate" },
+          { text: "getUserLocation", link: "/getUserLocation" },
         ],
       },
       // {
